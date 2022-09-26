@@ -51,7 +51,7 @@ CREATE TABLE `people`(
                          `birthdate` DATE NOT NULL ,
                          `biography` TEXT
 );
-INSERT INTO `people` (`name`,`gender`,`birthdate`)
+INSERT INTO `people ` (`name`,`gender`,`birthdate`)
 VALUES
     ('Boris','m',Date(now())),
     ('Aleksandar','m',Date(now())),
